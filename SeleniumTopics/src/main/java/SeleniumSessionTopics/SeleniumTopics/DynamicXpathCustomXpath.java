@@ -22,7 +22,8 @@ public class DynamicXpathCustomXpath {
 		d.manage().deleteAllCookies();
 
 		d.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS); // pageLoadTimeout() will wait for 40sec if page loaded before that remaining time will be ignored
-		d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // implicitlyWait() will wait for 30sec if page loaded before that remaining time will be ignored Also this timeouts() are global variable no need to assign again & again to wait until the page loads.
+		d.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // implicitlyWait() will wait for 30sec if page loaded before that remaining time will be ignored 
+		//Also this timeouts() are global variable no need to assign again & again to wait until the page loads.
 		d.get("https://www.ebay.com/");
 		
 		//Absolute Xpath: not recommended 

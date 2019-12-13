@@ -16,7 +16,7 @@ public class FrameHandling {
 
 		WebDriver d = new FirefoxDriver();
 
-		d.get("****************"); //To know where Frames are used. Right click on the element This frames will be visible. 
+		d.get("****************"); //To know where Frames are used. Right click on the element "This frames" will be visible. If it is visible then frames are present 
 
 		d.manage().window().maximize();
 		d.manage().deleteAllCookies();

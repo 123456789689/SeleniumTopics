@@ -39,6 +39,7 @@ public class FindElementsTopic {
 			String s = lr.get(i).getText();
 			System.out.println(s);
 			
+			//In console if empty space available then those links are hidden from front end 
 		}
 		
 		
